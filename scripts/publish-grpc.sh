@@ -10,8 +10,8 @@ docker build --no-cache -f Dockerfile.grpc -t c4-type .
 
 echo "\n===> Docker tag...\n"
 
-docker tag c4-type fernandocagale/c4-type:v2
+docker tag c4-type fernandocagale/c4-type:grpc
 
 echo "\n===> Docker push...\n"
 
-docker push fernandocagale/c4-type:v2
+docker push fernandocagale/c4-type:grpc

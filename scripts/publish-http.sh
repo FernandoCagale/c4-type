@@ -10,8 +10,8 @@ docker build --no-cache -f Dockerfile.http -t c4-type .
 
 echo "\n===> Docker tag...\n"
 
-docker tag c4-type fernandocagale/c4-type
+docker tag c4-type fernandocagale/c4-type:http
 
 echo "\n===> Docker push...\n"
 
-docker push fernandocagale/c4-type
+docker push fernandocagale/c4-type:http
