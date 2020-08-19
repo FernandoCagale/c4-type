@@ -1,5 +1,7 @@
 # c4-type [Flow](https://github.com/FernandoCagale/c4-kustomize)
 
+[![Build Status](https://travis-ci.org/FernandoCagale/c4-type.svg?branch=master)](https://travis-ci.org/FernandoCagale/c4-type)
+
 ### Docker
 
 `running docker multi-stage builds and publish c4-type to HTTP and gRPC`
